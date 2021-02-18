@@ -24,7 +24,7 @@ namespace DomZad_02_17_2
             A = Convert.ToDouble(textBox1.Text);
             B = Convert.ToDouble(textBox2.Text);
             textBox3.Text = (A + B).ToString();
-            textBox4.Text = (A - B).ToString();
+            textBox4.Text = Math.Round(A - B, 3).ToString();
         }
     }
 }
